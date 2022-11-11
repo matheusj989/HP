@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0;}
+
+body{
+	background: #000000; 
+}
+
+nav ul{
+	width: 496px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav ul li{
+	float: left;
+	display: block;
+	position: relative;
+}
+
+nav ul li a{
+	float: left;
+	margin-top: 5px;
+	font-family: tahoma;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 17px;
+	font-weight: bold;
+   	text-shadow: 3px 3px 2px #000000;
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	width: 160px;
+	height: auto;
+	background: #00008B;
+	border: 4px solid #ffffff;
+
+}
+
+nav ul li:hover ul{
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+
+nav ul li:hover ul li a{
+	border: none;
+	width: 126px;
+	border-bottom: 1px solid #ffffff;
+}
+#menu2{
+	float: left;
+	position: absolute;
+	left: 370px;
+	margin-top: 10px;
+}
+#mascara{
+	background-image: url(../img/fundomodal.png);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#fundo{
+	background-color: #ffffff;
+	height: 370px;
+	width: 600px;
+	position: absolute;
+	left: 350px;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+#mascara2{
+	background-image: url(../img/fundomodal.png);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.esconder{
+	display: none;
+}
+.estilizarbotaoc{
+	background-color: #8B0000;
+	background: #8B0000;
+}
+
+
+
+
+
+
+/* */

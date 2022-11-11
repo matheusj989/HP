@@ -1,0 +1,92 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>HotPursuit - SA:MP</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'/>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900,400,400italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+	<link rel="stylesheet" href="css/estilos.css"/>	
+	<link rel="sortcut icon" href="nome_do_arquivo.png" type="img/icone.png" />
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript">  
+	function esconderdiv(id){
+		var div = document.getElementById(id);
+		div.classList.add("esconder");
+	}
+	function mostrardiv(id){
+		var div = document.getElementById(id);
+		div.classList.remove("esconder");
+	}
+	function estilizarbotao(id){
+		var div = document.getElementById(id);
+		div.classList.add("estilizarbotaoc");	
+	}
+	function destilizarbotao(id){
+		var div = document.getElementById(id);
+		div.classList.remove("estilizarbotaoc");	
+	}
+	</script>
+</head>
+<body>
+	<img src="img/banner.jpg" style=" height: 100%; width: 100%; position: absolute;">
+	<nav>
+		<ul id="menu2">
+			<li><h5 onclick=" mostrardiv('mascara2'); " style="cursor: pointer; color: #ffffff; 	float: left; margin-top: 5px; font-family: tahoma; font-family: sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; text-transform: uppercase; padding: 15px 17px; font-weight: bold; text-shadow: 3px 3px 2px #000000;" id="abrirchangelog">Equipe</h5></li>
+			<li><h5 onclick=" mostrardiv('mascara'); " style="cursor: pointer; color: #ffffff; 	float: left; margin-top: 5px; font-family: tahoma; font-family: sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; text-transform: uppercase; padding: 15px 17px; font-weight: bold; text-shadow: 3px 3px 2px #000000;" id="abrirchangelog">Changelog</h5></li>
+			<li><h5 style="cursor: pointer; color: #ffffff; 	float: left; margin-top: 5px; font-family: tahoma; font-family: sans-serif; color: #ffffff; font-size: 14px; text-decoration: none; text-transform: uppercase; padding: 15px 17px; font-weight: bold; text-shadow: 3px 3px 2px #000000;" id="abrirchangelog">Galeria</h5></li>
+		</ul>
+		<img src="img/hotpursuit.png" style=" position: absolute; left: -15px; height: 100px; width: 400px; margin-top: -15px;">
+		<a href="http://www.sa-mp.com" style="color: #ffffff; position: absolute; right: 50px; font-family: arial; font-weight: bold; margin-top: 30px; text-decoration: none; text-shadow: 3px 3px 2px #000000; ">SA-MP 0.3.7</a>
+	</nav>
+	<h5 style="color: #ffffff; position: absolute; margin-top: 370px; left: 520px; font-size: 25px; font-family: tahoma; font-weight: bold;">IP: 000.00.000.000:0000</h5>
+	<h5 style="color: #ffffff; position: absolute; margin-top: 400px; left: 450px; font-size: 35px; font-family: tahoma; font-weight: bold;">Assista o trailer do servidor</h5>	
+	<a href="#" onmouseover=" javascript:estilizarbotao('botaoassistir');" onmouseout=" javascript:destilizarbotao('botaoassistir'); "><div id="botaoassistir" style=" height: 60px; width: 230px; position: absolute; background-color: #FF0000; left: 560px; margin-top: 500px; border-radius: 5px;" onmouseover=" javascript:estilizarbotao('botaoassistir');" onmouseout=" javascript:destilizarbotao('botaoassistir'); " >
+		<h5 style="font-size: 45px; color: #ffffff; font-weight: bold; left: 100px; margin-top: 10px; position: absolute;">►</h5>	
+	</div></a>
+	<div id="mascara" class="esconder">
+		<div id="fundo">			
+			<input id="fecharchangelog" type="button" style=" background-image: url(img/fecharmodal.png); left: 565px; position: absolute; margin-top: 10px; height:25px; width: 25px; border: 0px; cursor: pointer;" onclick=" esconderdiv('mascara'); "></input>
+			<h5 style=" font-size: 20px; position: absolute; font-weight: bold; color: #000000; font-family: tahoma; margin-top: 20px; left: 230px;">Changelog</h5>
+			<h5 style=" font-size: 20px; position: absolute; font-weight: bold; color: #FF0000; font-family: tahoma; margin-top: 40px; left: 220px;">[HotPursuit]</h5>
+			<h5 style=" font-size: 12px; position: absolute; color: #00FF00; font-family: tahoma; margin-top: 90px; left: 235px;">(✚)<h5 style=" font-size: 12px; position: absolute; color: #000000; font-family: tahoma; margin-top: 90px; left: 265px;">Adicionado.</h5></h5>
+			<h5 style=" font-size: 12px; position: absolute; color: #FF0000; font-family: tahoma; margin-top: 110px; left: 235px;">(✖)<h5 style=" font-size: 12px; position: absolute; color: #000000; font-family: tahoma; margin-top: 110px; left: 265px;">Removido.</h5></h5>
+			<h5 style=" font-size: 12px; position: absolute; color: #0000CD; font-family: tahoma; margin-top: 130px; left: 235px;">(➤)<h5 style=" font-size: 12px; position: absolute; color: #000000; font-family: tahoma; margin-top: 130px; left: 265px;">Atualizado.</h5></h5>
+			<h5 style=" font-size: 12px; position: absolute; color: #FF4500; font-family: tahoma; margin-top: 150px; left: 235px;">(✐)<h5 style=" font-size: 12px; position: absolute; color: #000000; font-family: tahoma; margin-top: 150px; left: 265px;">Corrigido.</h5></h5>
+			<div style=" background-color: #EAEAEB; border-color: #C2C2C2; border-style: solid; border-width: 1px; width: 500px; height: 120px; left: 45px; position: absolute; margin-top: 180px;">
+				<h5 style=" color: #000000; left: 10px; margin-top: 5px; font-size: 13px; position: absolute;">• HotPursuit v1.0.00</h5>
+				<h5 style=" font-size: 12px; position: absolute; color: #0000CD; margin-top: 40px; left: 40px; font-weight: bold; ">(➤)<h5 style=" font-size: 12px; position: absolute; color: #000000; margin-top: 40px; left: 65px; font-weight: bold; "> • Login/Registro.</h5></h5>
+				<h5 style=" font-size: 12px; position: absolute; color: #FF4500; margin-top: 60px; left: 40px; font-weight: bold; ">(✐)<h5 style=" font-size: 12px; position: absolute; color: #000000; margin-top: 60px; left: 65px; font-weight: bold; "> • Salvamento de dados.</h5></h5>
+				<h5 style=" font-size: 12px; position: absolute; color: #00FF00; margin-top: 80px; left: 40px; font-weight: bold; ">(✚)<h5 style=" font-size: 12px; position: absolute; color: #000000; margin-top: 80px; left: 65px; font-weight: bold;"> • Concessionaria/Garagem/Shooping para personalização de carros e skins.</h5></h5>
+			</div>
+			<h5 style=" color: #000000; left: 150px; position: absolute; margin-top: 330px;">O servidor se encontra na versão <h5 style="color: #000000; left: 365px; position: absolute; margin-top: 330px; font-weight: bold;">v1.0.00.</h5></h5>
+		</div>	
+	</div>
+	<div id="mascara2" class="esconder">
+		<div style=" position: absolute; height: 500px; width: 600px; background: #ffffff; left: 380px; margin-top: 80px; border-radius: 5px; ">
+			<h5 style=" color: #000000; position: absolute; margin-top: 10px; font-size: 20px; font-family: tahoma; font-weight: bold; left: 260px; position: absolute;">Equipe</h5>
+			<h5 style=" color: #FF0000; position: absolute; margin-top: 40px; font-size: 25px; font-family: tahoma; font-weight: bold; left: 210px;">[Hot-Pursuit]</h5>
+			<hr size="1" width="40%" color="#333333" style=" margin-top: 80px; position: absolute; left: 180px;">
+			<div style=" background-color: #EAEAEB; border-color: #C2C2C2; border-style: solid; border-width: 1px; width: 520px; height: 380px; left: 45px; position: absolute; margin-top: 90px;"></div>
+			<h5 style=" color: #000000; position: absolute; margin-top: 100px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 60px; ">Nome: DogAlien. | Tipo: Programador. | Função: Programar o servidor.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 150px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 200px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 250px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 300px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 350px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 400px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<h5 style=" color: #000000; position: absolute; margin-top: 450px; font-size: 14px; font-family: tahoma; font-weight: bold; left: 140px; ">Nome: Ninguem. | Tipo: Nenhum. | Função: Nenhuma.</h5>
+			<hr size="1" width="40%" color="#333333" style=" margin-top: 490px; position: absolute; left: 180px;">
+		</div>	
+		<input id="fecharequipe" type="button" style=" height:25px; width: 25px; border: 0px; cursor: pointer; background-image: url(img/fecharmodal.png); position: absolute; margin-top: 85px; left: 945px;" onclick=" esconderdiv('mascara2');"></input>
+	</div>
+</body>
+</html>
